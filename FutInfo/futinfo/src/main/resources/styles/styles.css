@@ -1,0 +1,50 @@
+
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0d1b2a, #1b263b);
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.button {
+    -fx-background-color: #0d47a1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 10 20;
+}
+
+.button:hover {
+    -fx-background-color: #1e88e5;
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.label {
+    -fx-text-fill: #e0e1dd;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #415a77;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #a0aec0;
+    -fx-border-color: #778da9;
+    -fx-border-radius: 5;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffd60a;
+}
+
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 12 20;
+}
+
+.menu-button:hover {
+    -fx-background-color: #415a77;
+}

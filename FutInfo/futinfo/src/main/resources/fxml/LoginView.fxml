@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefWidth="400" prefHeight="300"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.futinfor.controller.LoginController">
+
+    <children>
+
+        <VBox alignment="CENTER" spacing="15"
+              layoutX="50" layoutY="50"
+              prefWidth="300">
+
+            <Label text="FutInfo Login" style="-fx-font-size: 20px;" />
+
+            <TextField fx:id="emailField" promptText="Email" />
+
+            <PasswordField fx:id="senhaField" promptText="Senha" />
+
+            <Button text="Entrar"
+                    onAction="#handleLogin"
+                    prefWidth="200"/>
+
+            <Label fx:id="mensagemLabel" style="-fx-text-fill: red;" />
+
+        </VBox>
+
+    </children>
+
+</AnchorPane>
